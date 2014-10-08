@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ZanYun.OpenApi.Tencent.ExMail
 {
-    class Utility
+    public class Utility
     {
     }
 }
