@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ZanYun.OpenApi.Tencent
+namespace ZanYun.OpenApi.Tencent.ExMail
 {
-    public class ExMail
+    public class Impl
     {
 
     }

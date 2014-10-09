@@ -8,5 +8,6 @@ namespace ZanYun.OpenApi.Tencent.ExMail
 {
     public class Utility
     {
+        
     }
 }
