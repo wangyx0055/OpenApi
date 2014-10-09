@@ -45,11 +45,12 @@
   <ItemGroup>
     <Compile Include="Entity\ParamEntity.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tencent\ExMail\Entity.cs" />
+    <Compile Include="Tencent\ExMail\Impl.cs" />
+    <Compile Include="Tencent\ExMail\Utility.cs" />
     <Compile Include="Utility\WebHelper.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Tencent\ExMail\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
