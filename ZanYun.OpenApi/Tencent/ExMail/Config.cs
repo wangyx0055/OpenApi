@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Configuration;
 
 namespace ZanYun.OpenApi.Tencent.ExMail
 {
-    public class Config
+    public class UrlsConfig
     {
         /// <summary>
         /// 验证授权URL
@@ -98,5 +99,38 @@ namespace ZanYun.OpenApi.Tencent.ExMail
         /// </summary>
         public const string GroupDeleteMemberUrl = ApiUrl + "/openapi/group/deletemember";
 
+    }
+
+    public class AppConfig
+    {
+        public static string Client_Secret
+        {
+            get
+            {
+                try
+                {
+                    return ConfigurationManager.AppSettings["Client_Secret"];
+                }
+                catch
+                {
+                    return string.Empty;
+                }
+            }
+        }
+
+        public static string Client_ID
+        {
+            get
+            {
+                try
+                {
+                    return ConfigurationManager.AppSettings["Client_ID"];
+                }
+                catch
+                {
+                    return string.Empty;
+                }
+            }
+        }
     }
 }
