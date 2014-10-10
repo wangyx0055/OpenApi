@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Zanyun.OpenApi.Test.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="ZanYun.OpenApi.Test.Global" Language="C#" %>

@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
 
-namespace Zanyun.OpenApi.Test
+namespace ZanYun.OpenApi.Test
 {
     public class Global : System.Web.HttpApplication
     {

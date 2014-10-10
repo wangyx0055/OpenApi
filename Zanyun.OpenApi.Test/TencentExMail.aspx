@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TencentExMail.aspx.cs" Inherits="Zanyun.OpenApi.Test.TencentExMail" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TencentExMail.aspx.cs" Inherits="ZanYun.OpenApi.Test.TencentExMail" %>
 
 <!DOCTYPE html>
 

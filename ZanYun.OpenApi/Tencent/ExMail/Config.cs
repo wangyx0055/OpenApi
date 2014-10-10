@@ -72,7 +72,7 @@ namespace ZanYun.OpenApi.Tencent.ExMail
         /// <summary>
         /// 获取部门下成员列表
         /// </summary>
-        public const string PartyuserListUrl = ApiUrl + "/openapi/partyuser/list";
+        public const string PartyUserListUrl = ApiUrl + "/openapi/partyuser/list";
 
         /// <summary>
         /// 检查邮件帐号是否可用
@@ -101,36 +101,36 @@ namespace ZanYun.OpenApi.Tencent.ExMail
 
     }
 
-    public class AppConfig
-    {
-        public static string Client_Secret
-        {
-            get
-            {
-                try
-                {
-                    return ConfigurationManager.AppSettings["Client_Secret"];
-                }
-                catch
-                {
-                    return string.Empty;
-                }
-            }
-        }
+    //public class AppConfig
+    //{
+    //    public static string Client_Secret
+    //    {
+    //        get
+    //        {
+    //            try
+    //            {
+    //                return ConfigurationManager.AppSettings["Client_Secret"];
+    //            }
+    //            catch
+    //            {
+    //                return string.Empty;
+    //            }
+    //        }
+    //    }
 
-        public static string Client_ID
-        {
-            get
-            {
-                try
-                {
-                    return ConfigurationManager.AppSettings["Client_ID"];
-                }
-                catch
-                {
-                    return string.Empty;
-                }
-            }
-        }
-    }
+    //    public static string Client_ID
+    //    {
+    //        get
+    //        {
+    //            try
+    //            {
+    //                return ConfigurationManager.AppSettings["Client_ID"];
+    //            }
+    //            catch
+    //            {
+    //                return string.Empty;
+    //            }
+    //        }
+    //    }
+    //}
 }

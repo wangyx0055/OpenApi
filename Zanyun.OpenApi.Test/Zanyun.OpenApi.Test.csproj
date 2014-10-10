@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Zanyun.OpenApi.Test</RootNamespace>
-    <AssemblyName>Zanyun.OpenApi.Test</AssemblyName>
+    <RootNamespace>ZanYun.OpenApi.Test</RootNamespace>
+    <AssemblyName>ZanYun.OpenApi.Test</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
@@ -85,6 +85,12 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ZanYun.OpenApi\ZanYun.OpenApi.csproj">
+      <Project>{ff4f75d6-99d8-4c4e-91d5-da55abd04763}</Project>
+      <Name>ZanYun.OpenApi</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
